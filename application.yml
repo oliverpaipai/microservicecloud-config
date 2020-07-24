@@ -1,16 +1,15 @@
-spring: 
-  prifiles:
+spring:
+  profiles:
     active:
     - dev
-  
----   
-spring: 
-  prifiles: dev
-  application: 
+---
+spring:
+  profiles: dev
+  application:
     name: microservicecloud-config-atguigu-dev
-    
----   
-spring: 
-  prifiles: test
-  application: 
-    name: microservicecloud-test-config-atguigu-test
+
+---
+spring:
+     profiles: test
+     application:
+       name: microservicecloud-config-atguigu-dev
