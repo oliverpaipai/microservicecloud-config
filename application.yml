@@ -1,14 +1,16 @@
-server:
-  port: 8081
-
----
-server:
-  port: 8083
-spring:
-  profiles: dev
-
----
-server:
-  port: 8084
-spring:
-  profiles: prod  #指定属于哪个环境
+spring: 
+  prifiles:
+    active:
+    - dev
+  
+---   
+spring: 
+  prifiles: dev
+  application: 
+    name: microservicecloud-config-atguigu-dev
+    
+---   
+spring: 
+  prifiles: test
+  application: 
+    name: microservicecloud-test-config-atguigu-test
