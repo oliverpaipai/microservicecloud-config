@@ -2,11 +2,13 @@ spring:
     prifiles:
     active:
     - dev
+    
 ---   
 spring: 
     prifiles: dev
     application: 
         name: microservicecloud-config-atguigu-dev
+        
 ---   
 spring: 
     prifiles: test
