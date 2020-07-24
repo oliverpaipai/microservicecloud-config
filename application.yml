@@ -7,10 +7,10 @@ spring:
 spring: 
     prifiles: dev
     application: 
-        name: microservicecloud-config-atguigu-dev
+        name: microservicecloud-dev-config-atguigu-dev
         
 ---   
 spring: 
     prifiles: test
     application: 
-        name: microservicecloud-config-atguigu-test
+        name: microservicecloud-test-config-atguigu-test
