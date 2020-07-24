@@ -3,14 +3,15 @@ spring:
     active:
     - dev
     
+    
+---   
+spring: 
+    prifiles: test
+    application: 
+        name: microservicecloud-test-config-atguigu-test    
 ---   
 spring: 
     prifiles: dev
     application: 
         name: microservicecloud-dev-config-atguigu-dev
         
----   
-spring: 
-    prifiles: test
-    application: 
-        name: microservicecloud-test-config-atguigu-test
